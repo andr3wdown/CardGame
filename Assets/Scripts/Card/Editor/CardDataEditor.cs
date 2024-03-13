@@ -7,7 +7,7 @@ using UnityEditor;
 public class CardDataEditor : Editor
 {
 	private CardData cardData;
-	private string[] properties = {"cardName", "cost", "HP", "ATK", "effectText", "cardImage", "imagePositioning", "imageScaling" };
+	private string[] properties = {"cardName", "cost", "HP", "ATK", "energy", "shards", "speed", "effectText", "cardImage", "imagePositioning", "imageScaling" };
 
 	public override void OnInspectorGUI()
 	{

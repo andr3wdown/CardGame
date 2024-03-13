@@ -10,6 +10,9 @@ public class CardData : ScriptableObject
 	public int cost;
 	public int HP;
 	public int ATK;
+	public int energy;
+	public int shards;
+	public int speed;
 	public string effectText;
 	public Sprite cardImage;
 	public Vector2 imagePositioning;

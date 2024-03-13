@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4cbd38b9505bcc4db94d01c315cd767, type: 3}
-  m_Name: GorgothTheDestroyer
+  m_Name: Charaiodon
   m_EditorClassIdentifier: 
-  cardName: Gorgoth The Destroyer
-  cost: 4
-  HP: 6000
-  ATK: 3000
+  cardName: Charaiodon
+  cost: 5
+  HP: 8000
+  ATK: 4000
   energy: 3
   shards: 2
-  speed: 0
-  effectText: When this monster is summoned destroy the opponents monster with the
-    highest HP.
-  cardImage: {fileID: 21300000, guid: 920e425c10049fe4992f4d02e2e3d97d, type: 3}
-  imagePositioning: {x: 0, y: 0.366}
+  speed: 1
+  effectText: Once per turn this card gains +1 shard when you discard a card until
+    the end of the turn.
+  cardImage: {fileID: 21300000, guid: f128da31614165d4b8eef02991c0a446, type: 3}
+  imagePositioning: {x: 0, y: 0.169}
   imageScaling: {x: 0.64645, y: 0.6368826}

@@ -13,7 +13,6 @@ public class Hand : MonoBehaviour
 
 	private float currentDistance = 0.1f;
 	private float maxDistance = 0.1f;
-	private float minDistance = -0.4f;
 	private float cardSize = 1f;
 	private float curveLenght = -1f;
 	private float cardMoveSpeed = 5f;
@@ -53,7 +52,7 @@ public class Hand : MonoBehaviour
 		for (int i = 0; i < transform.childCount; i++)
 		{
 			Transform card = transform.GetChild(i);
-			card.GetComponent<CardFlip>().SetLayerOrder(startSortingLayer + ((transform.childCount - i) * 4));
+			card.GetComponent<CardController>().SetLayerOrder(startSortingLayer + ((transform.childCount - i) * 4));
 			handCards.Add(card);
 
 		}
